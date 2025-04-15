@@ -1,0 +1,32 @@
+{
+  "id": "nicos_backslots",
+  "title": "Nicos Backslots",
+  "description": "A simple Backslot mod",
+  "versions": ["1.19","1.20","1.21"],
+  "icon": "https://cdn.modrinth.com/data/ju2ySlwM/1d4aec5955b7560869863b01c139701de4fcadcc_96.webp",
+  
+  
+  "project_page": {
+    "screenshots": [
+      "https://cdn.modrinth.com/data/ju2ySlwM/images/a71c8369b20d614afdc7d2f2e083f662164aded5_350.webp",
+      "https://cdn.modrinth.com/data/ju2ySlwM/images/582f0a308ee7343899d702daa3b7cf12d5675d07_350.webp",
+      "https://cdn.modrinth.com/data/ju2ySlwM/images/7af234ea25a1d9a532691aaff703888da207f586_350.webp",
+      "https://cdn.modrinth.com/data/ju2ySlwM/images/80b0fc8c5afe230f9d92a5f8fe7ffd676f610932_350.webp"
+    ],
+    
+    "links": [
+      {
+        "link": "https://github.com/Nico44YT/NicosBackslots",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/github_64h.png?raw=true"
+      },
+      {
+        "link": "https://github.com/Nico44YT/NicosBackslots/issues",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/documentation/issues_64h.png?raw=true"
+      },
+      {
+        "link": "https://modrinth.com/mod/nicos-backslots",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/modrinth_64h.png?raw=true"
+      }
+    ]
+  }
+}

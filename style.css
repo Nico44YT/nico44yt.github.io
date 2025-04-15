@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #1e2122;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c8c3bc;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+nav a.active {
+  text-decoration: underline;  /* Underline the active page link */
+  color: #007bff;  /* Optional: you can also change color for the active link */
+}
+
+#project_card {
+  text-decoration: none;
+  color: #181a1b;
+}
+
+h1, h2, h3, p {
+  color: #c8c3bc;
+}
+
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.projects .project {
+  background: #181a1b;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #333;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+#back_button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c8c3bc;
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: #1e2122;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
+}
+
+#back_button:hover {
+  transform: scale(1.1);
+}

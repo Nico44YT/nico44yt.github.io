@@ -1,0 +1,31 @@
+{
+  "id": "liby",
+  "title": "Liby",
+  "description": "Registration and MultiBlock Library with a bit of rendering",
+  "versions": ["1.19","1.20","1.21"],
+  "icon": "https://cdn.modrinth.com/data/UsIxG2yq/86f89faddd8450b17ce1a46fe97994bf88ec5bee_96.webp",
+  
+   "project_page": {
+     "custom_html": "<section class=\"liby-install-guide\">\n  <h2>How to Add Liby to Your Project</h2>\n\n  <div class=\"step\">\n    <h3>Step 1: Add the ModrinthMaven Repository</h3>\n    <p>\n      To download Liby from ModrinthMaven, add the repository to your <code>build.gradle</code> file:\n    </p>\n    <pre><code class=\"language-gradle\">repositories {\n    maven {\n        name = \"Modrinth Maven\"\n        url = \"https://api.modrinth.com/maven\"\n    }\n}</code></pre>\n  </div>\n\n  <div class=\"step\">\n    <h3>Step 2: Add the Liby Dependency</h3>\n    <ol>\n      <li>\n        <strong>Find the Version:</strong>\n        <ul>\n          <li>Go to the <a href=\"https://modrinth.com/mod/liby\" target=\"_blank\">Modrinth project page</a>.</li>\n          <li>Navigate to the version section and choose one that fits your setup.</li>\n          <li>Copy the version number.</li>\n        </ul>\n      </li>\n      <li>\n        <strong>Add the Dependency:</strong><br>\n        Paste this inside the <code>dependencies</code> block in your <code>build.gradle</code>:\n        <pre><code class=\"language-gradle\">dependencies {\n    // Add the Liby dependency using the Maven snippet\n    modImplementation \"maven.modrinth:liby:1.21.1-build-2.1.1\"\n\n    // Liby dependency\n    implementation \"org.reflections:reflections:0.10.2\"\n}</code></pre>\n      </li>\n    </ol>\n  </div>\n</section>\n",
+     "custom_style": ".liby-install-guide {\n  background: #181a1b;\n  border-radius: 16px;\n  padding: 2rem;\n  margin-top: 2rem;\n  color: #c8c3bc;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}\n\n.liby-install-guide h2 {\n  font-size: 2.2rem;\n  margin-bottom: 1rem;\n  color: #c8c3bc;\n  border-bottom: 2px solid #333;\n  padding-bottom: 0.5rem;\n}\n\n.liby-install-guide .step {\n  margin-bottom: 2rem;\n}\n\n.liby-install-guide h3 {\n  font-size: 1.3rem;\n  color: #007acc;\n  margin-bottom: 0.5rem;\n}\n\n.liby-install-guide p,\n.liby-install-guide li {\n  font-size: 1rem;\n  line-height: 1.6;\n  color: #c8c3bc;\n}\n\n.liby-install-guide code {\n  background-color: #2e2e2e;\n  padding: 0.2rem 0.5rem;\n  border-radius: 4px;\n  font-family: monospace;\n  color: #f0f0f0;\n}\n\n.liby-install-guide pre {\n  background-color: #2e2e2e;\n  color: #f0f0f0;\n  padding: 1rem;\n  border-radius: 8px;\n  overflow-x: auto;\n  font-size: 0.95rem;\n  margin-top: 0.5rem;\n}\n\n.liby-install-guide pre code {\n  background: none;\n  padding: 0;\n}\n",
+
+     "links": [
+      {
+        "link": "https://github.com/Nico44YT/Liby",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/github_64h.png?raw=true"
+      },
+      {
+        "link": "https://github.com/Nico44YT/Liby/issues",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/documentation/issues_64h.png?raw=true"
+      },
+      {
+        "link": "https://github.com/Nico44YT/Liby/wiki",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/documentation/readthedocs_64h.png?raw=true"
+      },
+      {
+        "link": "https://modrinth.com/mod/liby",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/modrinth_64h.png?raw=true"
+      }
+    ]
+  }
+}
