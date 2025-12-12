@@ -5,7 +5,6 @@ async function loadProjects() {
         "projects/liby.json",
         "projects/nicos_backslots.json",
         "projects/nicos_graves.json"
-        
     ];
 
     for (const file of projectFiles) {
@@ -20,6 +19,7 @@ async function loadProjects() {
             <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
                 <div style="flex: 1; font-size: 1.1rem; line-height: 75%">
                   <h3>${project.title}</h3>
+                  <p>Status: ${project.status}</p>
                   <p>${project.description}</p>
                   <p><strong>Versions:</strong> ${project.versions.join(", ")}</p>
                 </div>
