@@ -1,5 +1,6 @@
 {
   "id": "nicos_backslots",
+  "status": "Active",
   "title": "Nicos Backslots",
   "description": "A simple Backslot mod",
   "versions": ["1.19","1.20","1.21"],

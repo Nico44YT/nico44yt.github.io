@@ -3,7 +3,8 @@ async function loadProjects() {
 
     const projectFiles = [
         "projects/liby.json",
-        "projects/nicos_backslots.json"
+        "projects/nicos_backslots.json",
+        "projects/nicos_graves.json"
         
     ];
 

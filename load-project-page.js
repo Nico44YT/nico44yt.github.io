@@ -37,6 +37,7 @@ async function loadProjectPage() {
       <button id = "back_button"><</button>
       <h2>${project.title}</h2>
       <p>${project.description}</p>
+      <p>Status: ${project.status}</p>
       <p><strong>Versions:</strong> ${project.versions.join(", ")}</p>
 
       ${customHtml}

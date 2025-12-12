@@ -1,0 +1,29 @@
+{
+  "id": "nicos_graves",
+  "status": "Active",
+  "title": "Nicos Graves",
+  "description": "A grave mod so you don't lose your stuff",
+  "versions": ["1.16.5", "1.17.1", "1.18.2", "1.19.X","1.20.X","1.21.X"],
+  "icon": "https://cdn.modrinth.com/data/XUfL7E6s/d1e4e2f57a1d6e32ecbe15f53710baf0f6a33a99_96.webp",
+  
+  
+  "project_page": {
+    "screenshots": [
+    ],
+    
+    "links": [
+      {
+        "link": "https://github.com/Nico44YT/NicosGraves",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/github_64h.png?raw=true"
+      },
+      {
+        "link": "https://github.com/Nico44YT/NicosGraves/issues",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/documentation/issues_64h.png?raw=true"
+      },
+      {
+        "link": "https://modrinth.com/mod/nicos-graves",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/modrinth_64h.png?raw=true"
+      }
+    ]
+  }
+}

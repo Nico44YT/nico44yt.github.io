@@ -1,5 +1,6 @@
 {
   "id": "liby",
+  "status": "Archived",
   "title": "Liby",
   "description": "Registration and MultiBlock Library with a bit of rendering",
   "versions": ["1.19","1.20","1.21"],
