@@ -1,0 +1,30 @@
+{
+  "id": "enchantment_glint_toggler",
+  "status": "Active",
+  "title": "Enchantment Glint Toggler",
+  "description": "Lets you toggle the enchant glint of items",
+  "versions": ["1.15.X", "1.16.X", "1.17.X","1.19.X","1.20.X","1.21.X"],
+  "icon": "https://github.com/Nico44YT/EnchantmentGlintTogglerMod/blob/main/promo/icon_160x160.png?raw=true",
+  
+  
+  "project_page": {
+    "screenshots": [
+      "https://github.com/Nico44YT/EnchantmentGlintTogglerMod/blob/main/promo/showcase.gif?raw=true"
+    ],
+    
+    "links": [
+      {
+        "link": "https://github.com/Nico44YT/EnchantmentGlintTogglerMod",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/github_64h.png?raw=true"
+      },
+      {
+        "link": "https://github.com/Nico44YT/EnchantmentGlintTogglerMod/issues",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/documentation/issues_64h.png?raw=true"
+      },
+      {
+        "link": "https://modrinth.com/mod/enchantment-glint-toggler",
+        "image": "https://github.com/intergrav/devins-badges/blob/v3/assets/cozy/available/modrinth_64h.png?raw=true"
+      }
+    ]
+  }
+}
