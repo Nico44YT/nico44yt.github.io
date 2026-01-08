@@ -4,7 +4,8 @@ async function loadProjects() {
     const projectFiles = [
         "projects/liby.json",
         "projects/nicos_backslots.json",
-        "projects/nicos_graves.json"
+        "projects/nicos_graves.json",
+        "projects/enchantment_glint_toggler.json"
     ];
 
     for (const file of projectFiles) {
